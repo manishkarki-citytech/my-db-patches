@@ -1,4 +1,5 @@
 -- 20260216_072743532_setup_tables.sql
+-- PATCH_TYPE: SCHEMA
 CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
     username TEXT NOT NULL,
